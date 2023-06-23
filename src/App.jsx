@@ -30,7 +30,7 @@ const App = () => {
             .then(data => setPeople(data));
     })
 
-    if (displayFilms == false && displayPeople == false) {
+    if (displayFilms === false && displayPeople === false) {
         return (
             <div>
                 <h1>Studio Ghibli Database</h1>
